@@ -1,0 +1,74 @@
+table, th, td {
+    border: 2px solid #a62c1a;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #1d98af;
+    color: white;
+}
+h1 {
+    text-decoration: underline overline;
+}
+h1 {
+    text-decoration-color: #7e1d91;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #189fdd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dd7fcf;
+}
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+
+    background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiLsPvvqrzkAhVGQ6wKHSEHAYMQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.desktopbackground.org%2Fwallpaper%2Fminecraft-wallpapers-high-resolution-nekeran-com-1020897&psig=AOvVaw3WoXr8Vm4hQ3wjY6R3r4J-&ust=1567863980172758");
+
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+
+    height: 100%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
